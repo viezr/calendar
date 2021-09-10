@@ -1,0 +1,77 @@
+/* Calendar
+=======================*/
+.title {
+    text-align: center;
+}
+
+#calendar {
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.cal-header {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.cal-title {
+    font-size: 1rem;
+}
+
+#cal-month {
+    width: 110px;
+}
+
+#cal-year {
+    width: 50px;
+}
+
+#month-next {
+    margin-right: 10px;
+}
+
+.btn-cal {
+    padding: .2rem .3rem;
+    background-color: var(--blue-flash-bg);
+    border-color: var(--blue-flash-bg);
+    color: var(--white);
+}
+
+.cell-current, .cell-other, .cal-weekday {
+    padding: 8px;
+    margin: 0;
+    border: 0;
+
+    font-size: 1rem;
+    text-align: center;
+}
+
+.cell-current {
+    color: var(--dark);
+}
+
+.cell-other {
+    color: var(--gray-mid);
+}
+
+.cal-weekday {
+    font-weight: bold;
+    color: var(--gray);
+}
+
+.cal-weekend {
+    color: var(--pink);
+}
+
+.cal-weekend-other {
+    color: var(--red-flash-bg);
+}
+
+.cal-today {
+    background-image: radial-gradient(var(--blue-flash-bg) 30%, white 70%);
+    border-radius: 5px;
+}
+
+.leap-info {
+    margin-top: 20px;
+}
